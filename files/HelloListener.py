@@ -26,15 +26,6 @@ class HelloListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by HelloParser#age.
-    def enterAge(self, ctx:HelloParser.AgeContext):
-        pass
-
-    # Exit a parse tree produced by HelloParser#age.
-    def exitAge(self, ctx:HelloParser.AgeContext):
-        pass
-
-
     # Enter a parse tree produced by HelloParser#diagnosis.
     def enterDiagnosis(self, ctx:HelloParser.DiagnosisContext):
         pass
@@ -50,6 +41,87 @@ class HelloListener(ParseTreeListener):
 
     # Exit a parse tree produced by HelloParser#treatment.
     def exitTreatment(self, ctx:HelloParser.TreatmentContext):
+        pass
+
+
+    # Enter a parse tree produced by HelloParser#pregnancies.
+    def enterPregnancies(self, ctx:HelloParser.PregnanciesContext):
+        pass
+
+    # Exit a parse tree produced by HelloParser#pregnancies.
+    def exitPregnancies(self, ctx:HelloParser.PregnanciesContext):
+        pass
+
+
+    # Enter a parse tree produced by HelloParser#glucose.
+    def enterGlucose(self, ctx:HelloParser.GlucoseContext):
+        pass
+
+    # Exit a parse tree produced by HelloParser#glucose.
+    def exitGlucose(self, ctx:HelloParser.GlucoseContext):
+        pass
+
+
+    # Enter a parse tree produced by HelloParser#bloodPressure.
+    def enterBloodPressure(self, ctx:HelloParser.BloodPressureContext):
+        pass
+
+    # Exit a parse tree produced by HelloParser#bloodPressure.
+    def exitBloodPressure(self, ctx:HelloParser.BloodPressureContext):
+        pass
+
+
+    # Enter a parse tree produced by HelloParser#skinThickness.
+    def enterSkinThickness(self, ctx:HelloParser.SkinThicknessContext):
+        pass
+
+    # Exit a parse tree produced by HelloParser#skinThickness.
+    def exitSkinThickness(self, ctx:HelloParser.SkinThicknessContext):
+        pass
+
+
+    # Enter a parse tree produced by HelloParser#insulin.
+    def enterInsulin(self, ctx:HelloParser.InsulinContext):
+        pass
+
+    # Exit a parse tree produced by HelloParser#insulin.
+    def exitInsulin(self, ctx:HelloParser.InsulinContext):
+        pass
+
+
+    # Enter a parse tree produced by HelloParser#bmi.
+    def enterBmi(self, ctx:HelloParser.BmiContext):
+        pass
+
+    # Exit a parse tree produced by HelloParser#bmi.
+    def exitBmi(self, ctx:HelloParser.BmiContext):
+        pass
+
+
+    # Enter a parse tree produced by HelloParser#diabetesPedigreeFunction.
+    def enterDiabetesPedigreeFunction(self, ctx:HelloParser.DiabetesPedigreeFunctionContext):
+        pass
+
+    # Exit a parse tree produced by HelloParser#diabetesPedigreeFunction.
+    def exitDiabetesPedigreeFunction(self, ctx:HelloParser.DiabetesPedigreeFunctionContext):
+        pass
+
+
+    # Enter a parse tree produced by HelloParser#age.
+    def enterAge(self, ctx:HelloParser.AgeContext):
+        pass
+
+    # Exit a parse tree produced by HelloParser#age.
+    def exitAge(self, ctx:HelloParser.AgeContext):
+        pass
+
+
+    # Enter a parse tree produced by HelloParser#outcome.
+    def enterOutcome(self, ctx:HelloParser.OutcomeContext):
+        pass
+
+    # Exit a parse tree produced by HelloParser#outcome.
+    def exitOutcome(self, ctx:HelloParser.OutcomeContext):
         pass
 
 

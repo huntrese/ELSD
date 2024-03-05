@@ -5,7 +5,7 @@ from files.HelloParser import HelloParser
 
 
 def main(argv):
-    input = FileStream(argv[1])
+     input = FileStream(argv[1])
     lexer = HelloLexer(input)
     stream = CommonTokenStream(lexer)
     parser = HelloParser(stream)
