@@ -14,10 +14,11 @@ def home():
         data = request.json
         if data is None:
             return jsonify({"error": "Invalid JSON data"}), 400
-
-        prompt = data.get('prompt', None)
-        if prompt is None:
-            return jsonify({"error": "No prompt provided"}), 400
+        print(data)
+        return jsonify(data)
+        # prompt = data.get('prompt', None)
+        # if prompt is None:
+        #     return jsonify({"error": "No prompt provided"}), 400
     else:
         return "Please send a POST request with a prompt", 200
 
